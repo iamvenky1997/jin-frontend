@@ -1,0 +1,44 @@
+.auth-container{
+    background-image:linear-gradient(#19105b, #472067, #7c3375, #FF6196);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.auth-container-centerbox{
+    background-color: white;
+    width: 30vw;
+    height: 80vh;
+    margin-top: 5rem;
+}
+/* .auth-container-centerbox ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: grey;
+    
+}
+
+.auth-container-centerbox ul li{
+    font-size: 1.5rem;
+} */
+
+.auth-container-button{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.auth-container-button button{
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 1rem;
+  border: none;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.active{
+  background-color: #fa4299;
+  color:white;
+}
